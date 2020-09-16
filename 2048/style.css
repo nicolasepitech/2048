@@ -1,0 +1,44 @@
+table {
+    margin: auto;
+    padding: 15px;
+    border-spacing: 10px;
+    border: solid 5px darkgrey;
+}
+
+td {
+    width: 200px;
+    height: 200px;
+    border: solid 2px darkgrey;
+    text-align: center;
+}
+
+td[nbr="2"]{
+    background-color: #F9BA32;
+}
+td[nbr="4"]{
+    background-color: #D4AA42;
+}
+td[nbr="8"]{
+    background-color: #AF9B53;
+}
+td[nbr="16"]{
+    background-color: #8B8C64;
+}
+td[nbr="32"]{
+    background-color: #667D75;
+}
+td[nbr="64"]{
+    background-color: #426E86;
+}
+td[nbr="128"]{
+    background-color: #3E6175;
+}
+td[nbr="256"]{
+    background-color: #3A5564;
+}
+td[nbr="512"]{
+    background-color: #364953;
+}
+td[nbr="1024"]{
+    background-color: #323D42;
+}
